@@ -1,0 +1,21 @@
+#root {
+
+  padding: 0;
+
+}
+
+.boxx{
+  text-align: center;
+}
+
+
+
+.tabl{
+  border: 2px solid rgb(138, 129, 129); 
+  width: 70%; 
+  /* background-color: #e70e0e; 
+  /* font-weight: bold; */
+  padding: 50px;
+  border-radius: 7px;
+  margin: 50px;
+}

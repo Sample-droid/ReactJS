@@ -7,6 +7,8 @@ import StateBasics from './components/StateBasics'
 import Counter1 from './components/Counter1'
 import Ndisp from './components/Ndisp'
 import { Route, Routes } from 'react-router-dom'
+import Api from './components/Api'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +20,9 @@ function App() {
         <Route path='/' element={<Counter1/>}/>
         <Route path='/Ndisp' element={<Ndisp/>}/>
         <Route path='/STB' element={<StateBasics/>}/>
+        <Route path='/Api' element={<Api/>}/>
       </Routes>
+      {/* <Api/> */}
       {/* <Ndisp/>
       <Counter1/>
      <StateBasics/>

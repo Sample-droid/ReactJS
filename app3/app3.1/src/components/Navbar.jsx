@@ -25,15 +25,17 @@ const Navbar = () => {
             Sample
           </Typography>
                <Link to="/">
-                    <Button sx={{color: 'white' }}>Login</Button>
+                    <Button sx={{color: 'white' }}>STB</Button>
               </Link><br/>
               <Link to="/STB">
-  <Button sx={{color: 'white' }}>StateBasics</Button>
-</Link>
-<Link to="/Ndisp">
-  <Button sx={{color: 'white' }}>Ndisp</Button>
-</Link>
- 
+              <Button sx={{color: 'white' }}>Login</Button>
+               </Link>
+              <Link to="/Ndisp">
+                    <Button sx={{color: 'white' }}>Ndisp</Button>
+                     </Link>
+              <Link to="/Api">
+                    <Button sx={{color: 'white' }}>Api</Button>
+              </Link><br/>
         </Toolbar>
       </AppBar>
     </Box>
